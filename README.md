@@ -8,3 +8,9 @@ Pada guest:guest@localhost:5672, guest:guest adalah nama pengguna dan kata sandi
 
 Simulation slow subscriber (Total queue: 30)
 ![Simulation slow subscriber](img/simulation-slow-subscriber.png)
+
+Running three subscribers
+![Running three subscribers](img/running-three-subscribers.png)
+![Monitoring RabbitMQ](img/monitoring-rabbitmq.png)
+
+Untuk mempercepat program, saya dapat menjalankan tiga subscriber agar dapat mengkonsumsi pesan secara paralel. Dengan cara ini, saya bisa memanfaatkan kemampuan untuk memproses pesan secara bersamaan.
